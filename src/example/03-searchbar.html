@@ -11,8 +11,8 @@
   <body class="font-pre bg-slate-900 text-white p-5">
     <!-- 컨테이너 유틸리티 적용 -->
     <!-- 배경 색상(white), 안쪽 여백 40Px, 상하 마진 40px, 좌우 마진 auto(가운데 정렬), 가로 크기 384px -->
-    <!--  -->
-    <div class="container bg-white my-10 mx-auto w-96 flex items-center gap-3 p-3 pl-5">
+    <!-- 테두리, 테두리 색상(primary-100), 원형 스타일링 -->
+    <div class="focus-within:shadow-shadow/200 focus-within:border-tertiary-100 container bg-white my-10 mx-auto w-96 flex items-center gap-3 p-3 pl-5 border border-primary-100 rounded-full">
       <h1 class="">
         <a href="">
           <span class="sr-only">네이버</span>
@@ -23,7 +23,8 @@
       <form action="/" class="flex gap-4 grow">
         <div class="grow">
           <label for="input-1" class="sr-only">검색어</label>
-          <input type="search" id="input-1" placeholder="검색어를 입력하세요" required class="w-full" />
+          <!-- 포커스 시 아웃라인 제거 -->
+          <input type="search" id="input-1" placeholder="검색어를 입력하세요" required class="text-slate-800 w-full focus:outline-none" />
         </div>
         <!-- 상대배치(relative), 가로세로 크기는 24px 원형스타일, 배경그라디언트, 가상요소(before) 절대위치로 배치(absolute), top, right 좌표 50%, translate -50%,  -->
         <button type="submit" aria-label="검색" class="relative bg-gradient-to-b from-primary-400 to-primary-500 rounded-full size-6 before:absolute before:top-1/2 before:left-1/2 before:bg-white before:size-2 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full"></button>
