@@ -734,6 +734,11 @@ pre {
   height: 18px;
 }
 
+.size-7 {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1154,6 +1159,11 @@ pre {
   color: rgb(155 154 144 / var(--tw-text-opacity));
 }
 
+.text-tertiary-200 {
+  --tw-text-opacity: 1;
+  color: rgb(227 144 66 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1299,6 +1309,11 @@ pre {
 .hover\:bg-primary-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(34 190 97 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-tertiary-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 144 66 / var(--tw-bg-opacity));
 }
 
 .hover\:ring-2:hover {
