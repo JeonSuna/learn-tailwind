@@ -9,9 +9,10 @@
   </head>
   <!-- body 요소의 기본 웹폰트를 프리텐다드(Pretendard) 글꼴로 설정, 배경색상(slate-900), 패딩 값 20px -->
   <body class="font-pre bg-slate-900 p-5 space-y-5 text-white flex justify-center items-center h-screen">
-    <div>
-      <input type="checkbox" name="" id="checkbox-input" />
-      <label for="checkbox-input">로그인 상태 유지</label>
+    <div class="relative">
+      <input type="checkbox" name="" id="checkbox-input" class="peer absolute size-6 appearance-none" />
+      <!-- 배경이미지(unchecked.svg) 지정, 형제 요소인 input 요소가 checked 상태일 때 label 요소의 배경이미지가 (checked.svg)로 변경되도록 설정 -->
+      <label for="checkbox-input" class="bg-[url(./../icons/unchecked.svg)] bg-no-repeat pl-7 h-6 inline-flex peer-checked:bg-[url(./../icons/checked.svg)]">로그인 상태 유지</label>
     </div>
   </body>
 </html>

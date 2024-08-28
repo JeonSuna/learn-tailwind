@@ -710,8 +710,16 @@ pre {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .size-16 {
@@ -743,6 +751,10 @@ pre {
   height: 100vh;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -769,6 +781,12 @@ pre {
 
 .grow {
   flex-grow: 1;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .grid-cols-1 {
@@ -1002,6 +1020,10 @@ pre {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\.\/\.\.\/icons\/unchecked\.svg\)\] {
+  background-image: url(./../icons/unchecked.svg);
+}
+
 .from-primary-400 {
   --tw-gradient-from: #1BF008 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(27 240 8 / 0) var(--tw-gradient-to-position);
@@ -1061,6 +1083,10 @@ pre {
 
 .pl-5 {
   padding-left: 1.25rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
 }
 
 .text-center {
@@ -1367,6 +1393,10 @@ pre {
 .group:hover .\*\:group-hover\:text-white > * {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.peer:checked ~ .peer-checked\:bg-\[url\(\.\/\.\.\/icons\/checked\.svg\)\] {
+  background-image: url(./../icons/checked.svg);
 }
 
 .hocus\:blur-none:hover {
