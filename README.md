@@ -15,19 +15,19 @@ npm install
 ## 빌드(일회성) 하기
 
 ```sh
-git run dev
+npm run dev
 ```
 
 ## 라이브 서버 실행하기
 
 ```sh
-git run serve
+npm run serve
 ```
 
 ## 빌드(watch) 및 라이브 서버 동시에 실행하기
 
 ```sh
-git start
+npm start
 ```
 
 ## 빌드(watch) 및 라이브 서버 중지하기
