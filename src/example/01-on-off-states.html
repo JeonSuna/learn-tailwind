@@ -10,6 +10,26 @@
   <!-- body 요소의 기본 웹폰트를 프리텐다드(Pretendard) 글꼴로 설정, 배경색상(slate-900), 기본 글자색상(white), 패딩 값 20px -->
   <body class="font-pre bg-slate-900 text-white p-5">
     <!-- 아바타 컨테이너, 안쪽 여백(패딩, 40px) -->
-    <div class="p-10">...</div>
+    <div class="p-10 flex gap-5 border">
+      <figure class="relative size-16">
+        <img class="rounded-full" src="./../faces/face1.jpg" alt="슬비쌤" />
+        <figcaption class="absolute size-[18px] rounded-full bg-primary-100 right-0 bottom-0 border-2 border-white"><span class="sr-only">온라인</span></figcaption>
+      </figure>
+      <figure class="relative w-16">
+        <img class="rounded-full" src="./../faces/face1.jpg" alt="슬비쌤" />
+        <figcaption class="absolute size-[18px] rounded-full bg-greyscale-100 right-0 bottom-0 border-2 border-white"><span class="sr-only">오프라인</span></figcaption>
+      </figure>
+    </div>
+    <hr />
+    <div class="p-10 flex gap-5 border">
+      <figure class="size-16 grid grid-cols-1 grid-rows-1">
+        <img class="rounded-full" src="./../faces/face1.jpg" alt="슬비쌤" />
+        <figcaption class="justify-self-end size-[18px] rounded-full bg-primary-100 right-0 bottom-0 border-2 border-white"><span class="sr-only">온라인</span></figcaption>
+      </figure>
+      <figure class="size-16 grid grid-cols-1 grid-rows-1">
+        <img class="rounded-full" src="./../faces/face1.jpg" alt="슬비쌤" />
+        <figcaption class="self-end justify-self-end size-[18px] rounded-full bg-greyscale-100 right-0 bottom-0 border-2 border-white"><span class="sr-only">오프라인</span></figcaption>
+      </figure>
+    </div>
   </body>
 </html>
