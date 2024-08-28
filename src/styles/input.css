@@ -7,6 +7,12 @@
   }
 }
 
+@layer components {
+  .euid-item {
+    @apply text-lg text-primary-200 font-semibold;
+  }
+}
+
 @layer utilities {
   .shape-outside {
     shape-outside: circle(50%);
