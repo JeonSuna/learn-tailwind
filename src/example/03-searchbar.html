@@ -10,19 +10,22 @@
   <!-- body 요소의 기본 웹폰트를 프리텐다드(Pretendard) 글꼴로 설정, 배경색상(slate-900), 기본 글자색상(white), 패딩 값 20px -->
   <body class="font-pre bg-slate-900 text-white p-5">
     <!-- 컨테이너 유틸리티 적용 -->
-    <div class="container">
+    <!-- 배경 색상(white), 안쪽 여백 40Px, 상하 마진 40px, 좌우 마진 auto(가운데 정렬), 가로 크기 384px -->
+    <div class="container bg-white p-10 my-10 mx-auto w-96">
       <h1>
         <a href="">
           <span class="sr-only">네이버</span>
-          <span class="" aria-hidden="true">N</span>
+          <!-- 글자 크기 60px, 굵기 Black -->
+          <span class="text-4xl font-black bg-gradient-to-b from-primary-400 to-primary-500 text-transparent bg-clip-text" aria-hidden="true">N</span>
         </a>
       </h1>
       <form action="/">
         <div>
           <label for="input-1" class="sr-only">검색어</label>
-          <input type="search" id="input-1" placeholder="검색어를 입력하세요" />
+          <input type="search" id="input-1" placeholder="검색어를 입력하세요" required />
         </div>
-        <button type="submit" aria-label="검색"></button>
+        <!-- 상대배치(relative), 가로세로 크기는 24px 원형스타일, 배경그라디언트, 가상요소(before) 절대위치로 배치(absolute), top, right 좌표 50%, translate -50%,  -->
+        <button type="submit" aria-label="검색" class="relative bg-gradient-to-b from-primary-400 to-primary-500 rounded-full size-6 before:absolute before:top-1/2 before:left-1/2 before:bg-white before:size-2 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full"></button>
       </form>
     </div>
   </body>
