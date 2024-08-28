@@ -7,13 +7,13 @@
     <link class="" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pretendard/1.3.9/variable/pretendardvariable.min.css" integrity="sha512-0qT1XfdzuH6iU1HXY6Ox53EBCSxOesNUu5mx1czNy3u/TQ5QPRmvhJN+Wwxj4OY4NQjQwFVib3UqxFdEQc7BTg==" crossorigin="anonymous" />
     <link class="" rel="stylesheet" href="./../styles/main.css" />
   </head>
-  <!-- body 요소의 기본 웹폰트를 프리텐다드(Pretendard) 글꼴로 설정, 배경색상(slate-900), 기본 글자색상(white), 패딩 값 20px -->
-  <body class="font-pre bg-slate-900 text-white p-5">
-    <div class="container">
-      <div>
-        <h3>화초 관리</h3>
-        <time datetime="2024-08-28T15:37:25">6분전</time>
-        <p>화초에 물을 줄 시간입니다.</p>
+  <!-- body 요소의 기본 웹폰트를 프리텐다드(Pretendard) 글꼴로 설정, 배경색상(slate-900), 패딩 값 20px -->
+  <body class="font-pre bg-slate-900 p-5 space-y-5">
+    <div class="container flex flex-row-reverse bg-white rounded-xl p-5 gap-5 items-center">
+      <div class="flex flex-wrap justify-between grow">
+        <h3 class="text-[18px] font-semibold text-primary-300">화초 관리</h3>
+        <time datetime="2024-08-28T15:37:25" class="text-primary-300 text-[11px] font-bold">6분전</time>
+        <p class="w-full text-greyscale-200 text-sm">화초에 물을 줄 시간입니다.</p>
       </div>
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="28" height="28" rx="5.6" fill="#11D975" />
@@ -23,8 +23,8 @@
       </svg>
     </div>
 
-    <div class="container">
-      <div>
+    <div class="container flex">
+      <div class="order-1">
         <h3>아이 식사</h3>
         <time datetime="2024-08-28T15:43:48">지금</time>
         <p>아이에게 식사를 차려줄 시간입니다.</p>

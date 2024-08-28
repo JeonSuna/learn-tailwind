@@ -778,8 +778,16 @@ pre {
   grid-template-rows: 100px 1fr;
 }
 
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .place-content-center {
@@ -792,6 +800,10 @@ pre {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-4 {
@@ -850,6 +862,10 @@ pre {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .border {
@@ -1070,12 +1086,29 @@ pre {
   font-size: 0.625rem;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-black {
   font-weight: 900;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-blue-700 {
@@ -1105,6 +1138,16 @@ pre {
 .text-slate-800 {
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
+}
+
+.text-primary-300 {
+  --tw-text-opacity: 1;
+  color: rgb(34 190 97 / var(--tw-text-opacity));
+}
+
+.text-greyscale-200 {
+  --tw-text-opacity: 1;
+  color: rgb(155 154 144 / var(--tw-text-opacity));
 }
 
 .underline {
