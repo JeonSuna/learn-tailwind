@@ -7,8 +7,8 @@
   }
 }
 
-/* @layer utilities {
+@layer utilities {
   .shape-outside {
     shape-outside: circle(50%);
   }
-} */
+}

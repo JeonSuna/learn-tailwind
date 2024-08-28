@@ -618,8 +618,8 @@ h1 {
   grid-row-end: 3;
 }
 
-.float-left {
-  float: left;
+.float-start {
+  float: inline-start;
 }
 
 .m-10 {
@@ -910,15 +910,13 @@ h1 {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+.shape-outside {
+  shape-outside: circle(50%);
+}
+
 .\[length\:100px_35px\] {
   length: 100px 35px;
 }
-
-/* @layer utilities {
-  .shape-outside {
-    shape-outside: circle(50%);
-  }
-} */
 
 .\*\:flex > * {
   display: flex;
