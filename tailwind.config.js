@@ -34,10 +34,15 @@ module.exports = {
           100: "#e3a368",
           200: "#e39042",
         },
+        pink:{
+          100:"#FCE1E5",
+          200:"#FF7074",
+        },
       },
       boxShadow: {
         "shadow/100": "0px 4px 4px 0px rgba(68,131,63,0.15)",
         "shadow/200": "0px 0px 2px 0px rgba(114,119,124,0.2)",
+        "shadow/10": "0px 4px 40px rgba(0,0,0,0.2)",
       },
       borderRadius: {
         none: 0,
